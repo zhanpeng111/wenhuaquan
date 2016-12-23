@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shadow_width">3dp</dimen>
+    <dimen name="slidingmenu_offset">50dp</dimen>
+    <dimen name="g_corner_small">2.0dip</dimen>
+    <dimen name="profile_item_margin">10.0dip</dimen>
+    <dimen name="g_txt_small">14.0dip</dimen>
+    <dimen name="g_txt_middle">16.5dip</dimen>
+    <dimen name="g_txt_big">18.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40.0dip</dimen>
+    <dimen name="content">18.0sp</dimen>
+    <dimen name="g_divider_large">2.0dip</dimen>
+    <dimen name="g_divider_medium">1.0dip</dimen>
+    <dimen name="g_divider_small">0.5dip</dimen>
+    <dimen name="ab_progress_bar_size_small">24.0dip</dimen>
+    <dimen name="padding_small">8.0dip</dimen>
+    <dimen name="padding_medium">16.0dip</dimen>
+    <dimen name="padding_large">28.0dip</dimen>
+    <dimen name="image_avatar_size_large">42.0dip</dimen>  
+    <dimen name="cmt_user_name">14.0sp</dimen>
+    <dimen name="cmt_user_cmt">16.5sp</dimen>
+    <dimen name="cmt_floor">13.0sp</dimen>
+     <dimen name="big_img_view_padding">20.0dip</dimen>
+    <dimen name="activity_horizontal_margin_small">4dp</dimen>
+    <integer name="maximumViewsOnScreen">4</integer>
+</resources>

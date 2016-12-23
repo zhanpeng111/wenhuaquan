@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:id="@+id/thread_item_ll" 
+    android:paddingLeft="@dimen/ds20" 
+    android:paddingTop="@dimen/ds20" 
+    android:paddingRight="@dimen/ds20" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/fontsize36" 
+        android:textColor="@color/cp_cont_b" 
+        android:ellipsize="end" 
+        android:gravity="center_vertical" 
+        android:id="@+id/ht_item_title"
+         android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:layout_marginBottom="@dimen/ds16"
+           android:singleLine="true" />
+    <TextView android:textSize="@dimen/fontsize32" 
+        android:textColor="@color/cp_cont_c" 
+        android:ellipsize="end" 
+        android:gravity="center_vertical"
+         android:id="@+id/ht_item_content"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+           android:layout_marginBottom="@dimen/ds16"
+	android:text="@string/location_add" 
+	android:maxLines="2" />
+    <RelativeLayout android:gravity="center_vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="@dimen/ds12">
+        <TextView android:textSize="@dimen/fontsize24" 
+            android:gravity="center_vertical" 
+            android:id="@+id/ht_item_reply" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:drawablePadding="2.0dip" 
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:id="@+id/ht_divider_line" android:layout_width="fill_parent" android:layout_height="@dimen/ds2" />
+</LinearLayout>

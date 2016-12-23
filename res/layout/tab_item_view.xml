@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/navi_icon"
+    android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	 android:src="@drawable/ic_tab_search_normal" 
+	 android:layout_centerInParent="true" />
+    <TextView 
+	android:textSize="11.0sp" 
+	android:textColor="@color/white" 
+	android:gravity="center" 
+	android:id="@+id/unread_count" android:background="@drawable/tab_num_bg" 
+	android:paddingLeft="5.0dip" 
+	android:paddingRight="5.0dip" android:visibility="gone" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" android:layout_marginTop="5.0dip" 
+	android:layout_marginRight="-5.0dip"
+	android:layout_alignRight="@id/navi_icon" android:layout_alignParentTop="true" />
+</RelativeLayout>

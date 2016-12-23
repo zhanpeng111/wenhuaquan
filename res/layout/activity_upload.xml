@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+          android:layout_height="50dip"
+        android:background="@color/ic_action_bar_item_normal_alpha"
+        >
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/icon_close_large" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="北极星投稿"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+		<Button android:gravity="center" 
+		    android:layout_gravity="center" 
+		    android:id="@+id/UpLoadEdit" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/navi_op_text_bg"
+		    android:textColor="@color/navi_op_text" 
+		    android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+		     style="@style/navi_textbtn_bg_comm"
+		 
+		 />
+     
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/block_post_background"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="19dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/neirongEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        
+            android:background="#00000000"
+            android:gravity="start"
+            android:hint="分享我的正能量，转载请注明出处。内容版权北极星所有。"
+            android:textSize="16sp" />
+		<ImageView
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="fill_parent"
+	  		android:layout_below="@id/neirongEdit"
+	  		android:scaleType="centerCrop"
+	  		android:id="@+id/photo_upload_preview_image"
+	  		>
+	  	  </ImageView>
+        <ImageView
+            android:id="@+id/id_from_cemera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo_upload_preview_image"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/icon_camera" />
+
+        <ImageView
+            android:id="@+id/id_from_albumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/camera"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/camera"
+            android:src="@drawable/icon_album" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="remindBeforePayDateStr">
+        <item>不提醒</item>
+        <item>提前一天</item>
+        <item>提前两天</item>
+        <item>提前三天</item>
+        <item>提前四天</item>
+        <item>提前五天</item>
+    </string-array>
+    <string-array name="setting_listview_item_operation">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="budget_mode_type">
+        <item>简单模式</item>
+        <item>标准模式</item>
+        <item>自定义模式</item>
+    </string-array>
+    <string-array name="report_type">
+        <item>按分类</item>
+        <item>按子分类</item>
+        <item>按商家</item>
+        <item>按账户</item>
+        <item>按项目</item>
+    </string-array>
+    
+    <string-array name="TBL_EXPENDITURE_CATEGORY">
+		<item>修心养性</item>
+		<item>忠孝家庭</item>
+		<item>事业工作</item>
+		<item>劝化救济</item>
+		<item>敬圣拜佛</item>
+	</string-array>
+
+		<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_1">
+		<item>内心有害人之意，并未实施，一次；==1</item>
+		<item>见人有忧，不予开导解释，反生畅快，一次；==1</item>
+		<item>傲慢经侮，谑笑尖巧，恶口咀咒，造人诨名，一次；==1</item>
+		<item>捏造歌谣，两舌离间他人，一次；==1</item>
+		<item>淫念、贪念、恶念、嫉妒念、媚世念，展转不除，每持续一日；==1</item>
+		<item>隐人善或扬人恶，一事；==1</item>
+		<item>出损德之言，一言；==1</item>
+		<item>见善不行或有过不改，过不认过，反争为是，一事；==1</item>
+		<item>有恩不报或有冤必报，一事；==1</item>
+		<item>无故与常人饮酒，或故意不与贤人饮酒，一人；==1</item>
+		<item>过分美衣美食，一衣一过，一食一过；==1</item>
+		<item>轻贱五谷天物，所值每百元；==1</item>
+			<item>见良家美色，起心私之，一事；==1</item>
+		<item>恶语对待朋友同辈，一言；==1</item>
+		<item>遇失利及患难，动辄怨天尤人者，一事；==1</item>
+		<item>衣冠不整，身不清洁，家居不整洁，持续一日；==1</item>	
+			<item>谩骂、争斗场合，凑看热闹；遇到闲人邪僻事，过问详细，一事；==1</item>
+		<item>不问声训，私自闯入他人家门，一次；==1</item>		
+		
+		<!-- 10g -->
+		<item>欲染娼家，一人；==10</item>
+		<item>婚嫁仪饰过盛，越礼犯分，烹杀多品，一次；==10</item>
+		<item>全无而妄自捏造传播人隐私，及闺帏中事者，一事；==10</item>	
+		<item>不审实，传播人隐私，及闺帏中事者，一事；==10</item>		
+		<item>见人富贵，心中暗自祈求他人未来贫贱，一次；==10</item>
+		<item>欺弄损害聋哑人、病人、愚人、老人、小儿者，一人；==10</item>
+		<item>淫念、贪念、恶念、嫉妒念、媚世念，邪念展转数日，形之动作，一次；==10</item>	
+		<item>恃财淫人妻女戏妓俊仆在家，致其淫邪，一人；==10</item>				
+		<!-- 100g -->			
+		<item> 魔魅巫蛊，设心伤人。 ==100 </item>
+		
+	</string-array>
+	
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_2">
+		<item>父母教诲为人之道的训言或师父特别的训导，违反一次；==1</item>
+		<item>父母、师长责怒，生嗔怒心，对祖父母、继父母不敬，一次；==1</item>
+		<item>父母喜欢的事情或者物品，故意不能满足，一次；父母不喜欢的事物，故意呈现在父母面前，或实施行为，一事；==1</item>
+		<item>父母有错，不能善巧劝导，一次；==1</item>		
+		<item>父母师长的训导，推脱不理、行动懒惰，不尊敬，不谦虚听取，一事；==1</item>			
+		<item>直呼父母师长之姓名、名号，一言；==1</item>		
+		<item>路遇长辈，不能急切招呼；长辈远行，不能百步相送，一事；==1</item>
+		<item>父母师长的问询，不加回应，不有恭敬，一事；==1</item>
+		<item>兄弟或家族同辈不和悦，一次；==1</item>
+		<item>应该直言不讳的事，不能直言，小事一次；==1</item>	
+		<item>违反国家和地方法令，小过错，一次；==1</item>
+		<item>花言巧语，哄骗他人，无论好事坏事，一次；==1</item>
+		<item>应该直言不讳的事，不能直言，小事一次；==1</item>		
+		<item>兄弟矛盾，心生嫉妒、仇恨，小事一次(大事加倍，甚至数倍）；==1</item>
+		<item>花言巧语，哄骗他人，无论好事坏事，一次；==1</item>
+		<item>因劳动而生怨气，骄傲而生懒惰，致使亲友、师长、上司发怒。各一过；==1</item>
+		<item>不教诲子孙，容纵家人，任其为不善者，一事；==1</item>	
+		<item>无故恶语对待子孙晚辈，一事；==1</item>	
+ 	<!-- 10 g -->
+ 			<item>父母、师长责怒，抵触者，一次；==10</item>			
+		<item>父母出行应提供钱粮，有能力，但未能给予者，一次；==10</item>		
+		<item>对他人应该直言不讳的事，不能直言，大事一次；==10</item>
+		<item>欺凌父母师长、异父母、祖父母，一次；==10</item>
+		<item>父母、师父教导良言，背道而驰，一事；==10</item>
+		<item>为了个人利益，欺骗亲友，忤逆争竞，教善不从，致亲惊忧；==10</item>
+			<item>为了顺服妻子、家人、友人，不顾孝悌，一次；==10</item>
+		<item>教育子孙打骂他人，占便宜，赞成其恶，一次；==10</item>
+		<item>破散（或劝导破散）他人婚姻，一事；==10</item>	
+		
+	<!-- 100 g -->
+		<item>阻碍亲友行善，唆使亲友行恶，导致亲友危机、受辱，一次；==100</item>		
+		<item>阻善赞恶，夫妻终身不睦，丈夫外面有情，抛弃妻子，妻子终日凌制丈夫，或双方因外遇而破碎家庭者，一事；==100</item>
+		<item>酷虐子女、寄养子女、寄父母，纵子孙恶习成性，一次；==100</item>		
+		<item>为人父母，堕胎一命；==100</item>		
+		<item>咒祷厌诅，不死而病，一人；==100</item>		
+		<item>父母溺初生子女，一命；==100</item>		
+		<item>谋人妻女，一人；==100</item>		
+		<item>教人不忠不孝等大恶者，一次；==100</item>		
+		<item>离父母出家，更拜他人作干父母者，一次；==100</item>		
+		<item>致使一妇女失节；==100</item>		
+		<item>教唆他人溺子女、堕胎。见诸濒死，可救而不救，一次；==100</item>		
+		<item>因错误、贪念、吃喝赌嫖、非法行为等，倾家荡产，一事；==100</item>			
+	</string-array>
+	<!-- 	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_3">
+		<item>受横不嗔，任谤不辨</item>
+		<item>闻逆不言，得灾不怨</item>
+		<item>穷理尽性，达天入神</item>
+		<item>谨言慎行，约己清心</item>
+		<item>以虚养心，以徳养身</item>
+		<item>欢喜迎晨，无愧对昏</item>
+		<item>真心赞美，肯切与人</item>		
+	</string-array> -->
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_3">
+		<item>咒骂、冤打下属、同行、上司、同事等，一人或一事；==1</item>
+		<item>克剥利息，滥取非分，使用斗秤等量器买卖，小出大入，每百元；==1</item>
+		<item>借人财物故意不还，每百元；==1</item>
+		<item>贱价强买他人物品，每百元；</item>
+		<item>别人失利失名，心生欢喜，一次；==1</item>
+		<item>下属、弟子有过不训诲，小事一事；==1</item>
+		<item>乘势紧急而多取他人财物，每百元；==1</item>	
+		
+		<item>因公而恃势乞索，巧伪取财，每百元；==1</item>
+		<item>背众受利，侈用他钱，每百元；==1</item>
+		<item>取不义之财，每百元；==1</item>
+		<item>盗取财物，每百元；==1</item>
+		<item>隐瞒或偷漏国家地方税负、单位团体经费，每百元；==1</item>
+		<item>收受、行使贿赂或额外收入，每百钱（正当提成或奖金除外）；==1</item>
+		<item>妄语不实，言而无信，一言；==1</item>	
+		<item>有功归己，有罪引人，一事；==1</item>
+		<item>见贤不举，见恶不去，一事；==1</item>
+		<item>传播、使用假币，每百元；</item>
+		<item>因自我任性，随便改变正常的职业，一事；==1</item>
+		<item>对工作及上级交付的工作，不能尽心尽力，一事；==1</item>
+		<!-- 10g -->
+		<item>对同事下属饥寒不恤，酷刑虐使，怨恨尊长上级，一次；==10</item>
+		<item>为了自身利益欺瞒亲友，不顾规则，恶行竞争，一次或一事；==10</item>	
+		<item>明知冤枉，而对下属置于重度刑罚，一次；==10</item>
+		<item>为己名位财利，攀附因缘，贿赂营谋，不顾非义者，一事；==10</item>				
+		<item>宁他人失财失位，而唯保全己之财位者，一次；==10</item>
+		<item>搀杂假伪，假冒伪劣，一事；==10</item>			
+			<!--100g -->				
+	    <item>对同事下属，利用职务之便，妒虐侍妾，残其肢体，一人；==100	</item>
+		<item>占用良家流落子女，奸淫员工同事，占婢作妾，一人；==100  </item>	
+		<item>居官位，轻易破坏下属前程，一人；==100</item>
+		<item>急迫穷债，亏心负财，一事；==100</item>				
+		<item>阴谋破他人产业，一事；==100</item>
+		<item>设局诱人赌荡，一事；==100</item>			
+		<item>制造及唆使他人制造假币，一事；==100</item>				
+		<item>借名募化而自肥资产，每千元；==100</item>
+
+					
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_4">
+		<item>送礼请客</item>
+		<item>慈善捐助</item>
+		<item>还人钱物</item>
+		<item>孝敬家长</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_5">
+		<item>书报杂志</item>
+		<item>数码装备</item>
+		<item>培训进修</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_6">
+		<item>休闲玩乐</item>
+		<item>旅游度假</item>
+		<item>宠物宝贝</item>
+		<item>腐败聚会</item>
+		<item>运动健身</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_7">
+		<item>手机费</item>
+		<item>上网费</item>
+		<item>座机费</item>
+		<item>邮寄费</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_8">
+		<item>公共交通</item>
+		<item>打车租车</item>
+		<item>私家车费用</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_9">
+		<item>房租</item>
+		<item>物业管理</item>
+		<item>维修保养</item>
+		<item>水电煤气</item>
+		<item>日常用品</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_10">
+		<item>早午晚餐</item>
+		<item>水果零食</item>
+		<item>烟酒茶</item>
+	</string-array>
+	<string-array name="TBL_EXPENDITURE_SUB_CATEGORY_11">
+		<item>衣服裤子</item>
+		<item>鞋帽包包</item>
+		<item>化妆饰品</item>
+	</string-array>
+	<string-array name="TBL_INCOME_CATEGORY">
+		<item>个人修为</item>
+		<item>忠孝家庭</item>
+		<item>事业工作</item>
+		<item>劝化救济</item>
+		<item>敬圣拜佛</item>
+	</string-array>
+	
+	<string-array name="TBL_INCOME_SUB_CATEGORY_1">
+		<item>扬人善或隐人恶，一事==1</item>
+		<item>有恩必报或有仇不报，一事；==1</item>
+		<item>忍受别人的横逆相加，一事；==1</item>
+		<item>拾遗还主，每百元；==1</item>
+		<item>引过归己，推善与人，一事；==1</item>
+		<item>遇失利及患难，不怨天尤人而顺受者，一事；==1</item>
+		<item>为含冤之人解说者（无论成功），一事；</item>
+		<item>免一应责人，受一逆耳言，任一谤不辩，受一横不嗔，一事；==1</item>
+		<item>见善必行或知过必改，一事；==1</item>
+		<item>论辩虚心下贤，理长则受者，一事；==1</item>
+		<item>言行俱善，存心施济天下，化导众庶，秉承一日；==1</item>
+		<item>饮食衣服，甘淡惜福，秉承一日；</item>
+		<!-- 10g -->
+		<item>行善事，而帮助到一个地方区域，一事；==10</item>
+		<item>报恩过分（受人滴水之恩，而对其涌泉相报），一次；==10</item>
+		<item>改正己过，十五日不倦，变化一项气质；==10</item>	
+		<item>大事难忍而忍，一事；==10</item>		
+		<!-- 100g -->			
+		<item>行善事，使全国民众受益，福及当代和未来，一事；==100</item>
+		<item>不因任何事情生气，天天欢喜，事事感恩，秉承十年； ==100</item>
+			
+	</string-array>
+<string-array name="TBL_INCOME_SUB_CATEGORY_2">
+		<item>全心全意侍奉父母、师长、兄长，致敬尽养，服劳承欢，亲常喜悦（继父母，祖父母、异父母之兄弟加倍），秉承一日；</item>
+		<item>赞美成全长辈亲友兄弟之诸善行为，或为其解怒舒忧，一事一功；==1</item>
+		<item>父母教诲为人之道的训言或师父特别的训导，皆不违反，秉承一日；==1</item>
+		<item>父母出行，准备资金用品，每百元；==1</item>		
+		<item>兄弟夫妻妯娌姑妗，相爱、任劳、推逸，做成一善事；==1</item>			
+		<item>每日训导子孙甥侄，仁慈一体，不怒不纵。有大事，教导见从，秉承一日，或大事一次；==1</item>		
+		<item>冬天为父母提供取暖设施，或亲自为其取暖，夏天提供降温设施，或亲自为其扇凉；一事；==1</item>
+		<item>早晨起床给父母师长请安，晚上侍奉入睡，秉承一日；==1</item>
+		<item>父母师长病中，侍奉左右，温汤煎药，无不体贴，秉承一日；==1</item>
+		<item>行动坐卧，饮食娱乐，均让长者优先，自己随后，秉承一日；==1</item>
+ 	<!-- 10 g -->
+ 			<item>奉劝父母长辈积德行善（世间法）一次；==10</item>			
+		<item>劝亲改过迁善，一次；==10</item>		
+		<item>奉劝父母长辈修佛修道（出世间法）一次；==10</item>
+		<item>度化一家俭仆好施。==10</item>
+		<item>父母师长亡故，尽心丧礼，缅怀心中，常感悲咽，每一年；==10</item>
+		<item>父母师长亡故，不食荤腥，不饮酒作乐，每一年；==10</item>
+	<!-- 100 g -->
+		<item>度化亲人，行仁成德，成为当世圣贤，一人；==100</item>		
+		<item>劝化家庭每个人和睦相处，美满和乐，事成；==100</item>	
+	</string-array>
+	<!-- <string-array name="TBL_INCOME_SUB_CATEGORY_3">
+		<item>遇忧而劝，遇难而帮</item>
+		<item>流言即止，风波即停</item>
+		<item>罪疑唯轻，功疑唯重</item>
+		<item>并逐曰竞，对辩曰争</item>
+		<item>志念坚固，有始有终</item>
+		<item>艺成而下，德成而上</item>
+		<item>节约粮食，如做功德</item>
+	</string-array> -->
+	<string-array name="TBL_INCOME_SUB_CATEGORY_3">
+		<item>不义之财不取，每百元；==1</item>
+		<item>借人财物，如期而还，不过时日，一事；==1</item>
+		<item>信守承诺，丝毫不差，一事；==1</item>
+		<item>无害于义，可取而不取的财物，每百元；==1</item>
+		<item>自愿减免他人债务，每百元（经他人恳求而减免者、通过法院裁决者，不计）==1</item>
+		<item>自愿为人代劳（义工），每小事；==1</item>
+		<item>竭尽全力效忠工作，秉承一日；==1</item>
+		<item>慈爱下属、帮助下属（朋友），一次；==1</item>
+		<item>下属有过错，而不为其难，善巧教导者，一次；==1</item>
+		<item>体恤下属艰苦，遇事可怒而不怒，且善教之，一事；==1</item>
+		<item>放债、出当、出租，济人危急，不论利息，一次；==1</item>		
+		<item> 贫者安心工作，不怨不贪，每一月；==1</item>		
+		<!-- 10g -->
+		<item>为下属讲学职业技术、人格教育，每十五日；==10</item>
+		<item>与下属同居一室，训化教育，每一日；==10</item>
+		<item>举用贤良或驱逐奸邪，一人；==10</item>
+		<item>宁失己财，宁失己位，使他人得财得位者，一人；==10</item>		
+		<!-- 100g -->
+		<item>度化同事朋友，忠信慈仁，使其可以救济他人，行善积德，一人； ==100 </item>		
+	</string-array>
+	<string-array name="TBL_ACCOUNT_TYPE">
+		<item>现金账户,0</item>
+		<item>金融账户,0</item>
+		<item>虚拟账户,0</item>
+		<item>负债账户,-1</item>
+		<item>债权账户,1</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_1">
+		<item>现金口袋</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_2">
+		<item>银行卡</item>
+		<item>存折</item>
+		<item>理财产品</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_3">
+		<item>在线支付</item>
+		<item>现金券</item>
+		<item>储值卡</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_4">
+		<item>应付款项</item>
+		<item>信用卡</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT_SUB_TYPE_5">
+		<item>应收款项</item>
+	</string-array>
+	<string-array name="TBL_ACCOUNT">
+		<item>银行卡(CNY),2,2,0</item>
+		<item>公交(CNY),3,7,0</item>
+		<item>饭卡(CNY),3,7,0</item>
+		<item>支付宝(CNY),3,5,0</item>
+		<item>财付通(CNY),3,5,0</item>
+		<item>其他(CNY),1,1,0</item>
+		<item>现金(CNY),1,1,0</item>
+	</string-array>
+	<string-array name="TBL_STORE">
+		<item>其他</item>
+		<item>饭堂</item>
+		<item>银行</item>
+		<item>商场</item>
+		<item>超市</item>
+		<item>公交</item>
+	</string-array>
+	<string-array name="TBL_ITEM">
+		<item>腐败</item>
+		<item>旅游</item>
+		<item>装修</item>
+		<item>公司报销</item>
+		<item>出差</item>
+	</string-array>
+</resources>

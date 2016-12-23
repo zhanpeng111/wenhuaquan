@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDE4D6"
+    android:padding="3dp" >
+
+        <ImageView
+            android:id="@+id/Item_MainImg"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawingCacheQuality="low"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/default_content_pic" />
+        
+        	<View android:id="@+id/commentdivider" 
+    		    android:background="@color/g_divider" 
+    		    android:layout_width="fill_parent" 
+    		    android:layout_height="@dimen/g_divider_large" 
+    		 />
+
+        
+</LinearLayout>

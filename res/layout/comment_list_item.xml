@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <RelativeLayout android:gravity="center_vertical"
+         android:padding="@dimen/padding_small" 
+		 android:focusableInTouchMode="false" 
+	 	 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content">
+              
+		  <com.qlhui.thoughtlight.myview.RoundedImageView 
+		      android:id="@+id/userIcon"
+			  android:layout_width="@dimen/image_avatar_size_large" 
+              android:layout_height="@dimen/image_avatar_size_large"
+		      android:layout_marginLeft="@dimen/padding_small" 
+			  android:layout_marginTop="@dimen/padding_small" 
+			  android:layout_marginBottom="@dimen/padding_small" 
+		      android:src="@drawable/defaulticon"
+		      android:scaleType="centerCrop" 
+		      android:layout_alignParentLeft="true" 
+		      app:corner_radius="@dimen/image_avatar_size_large"
+		      app:border_width="0dip"
+		      app:oval="false"
+		      app:border_color="#fff"
+		      />
+        <TextView android:textSize="@dimen/cmt_floor" 
+            android:id="@+id/Detail_Item_Num" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_medium"
+            android:layout_alignParentRight="true" 
+            style="@style/day_floor" />
+        <TextView android:textSize="@dimen/cmt_user_name" 
+            android:ellipsize="end" 
+            android:id="@+id/Detail_Item_UserName" 
+            android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/padding_medium" android:layout_marginTop="@dimen/padding_small" android:layout_marginRight="@dimen/padding_small" android:singleLine="true" 
+            android:layout_toLeftOf="@id/Detail_Item_Num" 
+            android:layout_toRightOf="@id/userIcon" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/cmt_user_cmt" 
+            android:textColor="#ff3b3d42" 
+            android:id="@+id/Detail_Item_Value" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="@dimen/padding_medium" 
+            android:layout_marginTop="4.0dip" 
+            android:layout_marginRight="@dimen/padding_medium" 
+            android:layout_marginBottom="@dimen/padding_small" 
+            android:singleLine="false"
+             android:layout_toRightOf="@id/userIcon" 
+             android:layout_below="@id/Detail_Item_UserName" 
+             android:layout_alignWithParentIfMissing="true" 
+             android:lineSpacingExtra="3.0dip" />
+    </RelativeLayout>
+	<View android:id="@+id/commentdivider" 
+    		    android:background="@color/g_divider" 
+    		    android:layout_width="fill_parent" 
+    		    android:layout_height="@dimen/g_divider_small" 
+    		 />
+    </LinearLayout>
+
+</LinearLayout>

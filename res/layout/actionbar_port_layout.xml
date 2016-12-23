@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:id="@+id/actionbarLayoutId"
+    android:background="@color/action_bar_color">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_marginLeft="12.0dp"
+        android:layout_marginTop="6.0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ab_ic_logo" />
+     <TextView
+        android:id="@+id/Title"
+        android:layout_marginTop="10.0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+		android:layout_toRightOf="@id/logo"	
+        android:paddingLeft="5dp"
+        android:textColor="@color/white"
+        android:text="文化驿站"
+        android:textSize="20sp" />
+         <ImageButton 
+        android:id="@+id/userinfobt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dp"
+        android:background="@drawable/ic_action_user"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="12.0dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:onClick="onClick"
+        />
+    
+    <ImageButton 
+        android:id="@+id/noteBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dp"
+        android:background="@drawable/home_publish_text_ic"
+        android:contentDescription="@string/app_name"
+    	android:visibility="gone"
+		android:layout_alignParentRight="true"
+  		android:layout_marginRight="10dip"
+        android:onClick="onClick"
+        />
+      <!-- 
+  		android:layout_toLeftOf="@id/userinfobt"	
+  		 -->
+   
+</RelativeLayout>

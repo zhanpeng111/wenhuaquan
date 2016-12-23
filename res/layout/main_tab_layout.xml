@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost android:id="@android:id/tabhost"
+     android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+        <FrameLayout android:id="@android:id/tabcontent" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" />
+        <FrameLayout android:id="@+id/realtabcontent" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_gravity="bottom" 
+            android:id="@+id/tabwidget" android:layout_width="fill_parent" 
+            android:layout_height="60.0dip">
+            <TabWidget android:id="@android:id/tabs" 
+                android:background="@drawable/tabbar" 
+			android:layout_width="fill_parent" 
+			android:layout_height="60.0dip" 
+			android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</android.support.v4.app.FragmentTabHost>

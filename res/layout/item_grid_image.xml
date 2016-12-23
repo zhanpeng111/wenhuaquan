@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:id="@+id/item_root_LL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/square_list_item_bg_selector"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+    <LinearLayout android:gravity="center_vertical"
+         android:orientation="horizontal" 
+         android:id="@+id/top_ll"
+          android:paddingLeft="@dimen/ds30" 
+          android:paddingRight="@dimen/ds30" 
+          android:layout_width="fill_parent" 
+          android:layout_height="@dimen/ds190">
+        <ImageView android:id="@+id/forum_image" 
+            android:layout_width="@dimen/ds134" 
+            android:layout_height="@dimen/ds134" />
+        <LinearLayout android:gravity="center_vertical" 
+            android:orientation="vertical" android:id="@+id/midd_ll" 
+            android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds20" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/fontsize32"
+                 android:id="@+id/forum_name" 
+                 android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content" 
+                 android:singleLine="true" 
+                 android:textColor="@color/cp_cont_b" />
+            <TextView android:textSize="@dimen/fontsize20" 
+                android:id="@+id/forum_rank" 
+                android:layout_width="50dip" 
+                android:layout_height="wrap_content" 
+                 android:gravity="center"
+                android:singleLine="true" 
+                android:textColor="@color/cp_cont_c" />
+            <TextView android:textSize="@dimen/fontsize24" 
+                android:id="@+id/forum_intro" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                 android:maxLines="2" 
+                android:textColor="@color/cp_cont_d" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/enter_forum_ll" android:paddingLeft="@dimen/ds10" android:paddingTop="@dimen/ds10" android:paddingBottom="@dimen/ds10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds20">
+            <TextView android:textSize="@dimen/ds28" 
+                android:gravity="center" 
+                android:id="@+id/enter_forum" 
+                android:layout_width="@dimen/ds120" 
+                android:layout_height="@dimen/ds60" 
+                android:text="@string/entry_baijia" 
+                android:background="@drawable/btn_titlebar_delete_n" 
+                android:textColor="@color/cp_cont_i" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/line_view" 
+        android:layout_width="fill_parent" 
+        android:layout_height="@dimen/ds1" 
+        android:layout_marginLeft="@dimen/ds30" 
+        android:layout_marginRight="@dimen/ds30"
+         android:background="@color/cp_bg_line_b" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bottom_ll" android:layout_width="fill_parent" android:layout_height="@dimen/ds58" android:layout_marginLeft="@dimen/ds30" android:layout_marginRight="@dimen/ds30">
+        <View android:id="@+id/left_empty_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <TextView android:textSize="@dimen/fontsize28" android:layout_gravity="left|center" android:id="@+id/like_num_tv" android:paddingLeft="@dimen/ds20" android:paddingRight="@dimen/ds20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ds180" android:singleLine="true" android:textColor="@color/cp_cont_c" />
+        <View android:id="@+id/mid_empty_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/fontsize28" android:layout_gravity="left|center" android:id="@+id/thread_num_tv" android:paddingRight="@dimen/ds20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/ds180" android:singleLine="true" android:textColor="@color/cp_cont_c" />
+        <View android:id="@+id/right_empty_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <View android:layout_gravity="center_vertical" android:id="@+id/vertical_line_view" android:layout_width="@dimen/ds1" android:layout_height="@dimen/ds30" android:background="@color/cp_bg_line_b" />
+        <TextView android:textSize="@dimen/fontsize28" android:layout_gravity="right|center" android:id="@+id/category_name_tv" android:paddingLeft="@dimen/ds30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="@dimen/ds10" android:textColor="@color/cp_cont_c" 
+            android:drawableRight="@drawable/icon_ba_guangchang_arrow" />
+    </LinearLayout>
+    <View android:id="@+id/bottom_empty_view" android:layout_width="fill_parent" android:layout_height="@dimen/ds20" android:background="@color/cp_bg_line_c" />
+</LinearLayout>

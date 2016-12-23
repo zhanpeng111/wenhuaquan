@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!--请参阅
+	[android_sdk]\platforms\android-n\data\res\values\attrs.xml
+	-->
+	  <declare-styleable name="SlidingDeck">
+        <attr name="maxViewsOnScreen" format="integer|reference" />
+        <attr name="enableOverdrawImprovement" format="boolean|reference" />
+        <attr name="itemsMarginTop" format="dimension|reference" />
+        <attr name="itemsMarginLeftRight" format="dimension|reference" />
+        <attr name="animationDuration" format="integer|reference" />
+        
+    </declare-styleable>
+    
+	  <style name="slideDeck">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="maxViewsOnScreen">@integer/maximumViewsOnScreen</item>
+        <item name="enableOverdrawImprovement">false</item>
+        <item name="itemsMarginTop">8dp</item>
+        <item name="itemsMarginLeftRight">8dp</item>
+        <item name="animationDuration">200</item>
+    </style>
+	<declare-styleable name="FAB">
+        <!-- Background color -->
+        <attr name="bg_color" format="color|reference"/>
+        <attr name="bg_color_pressed" format="color|reference"/>
+    </declare-styleable>
+	<declare-styleable name="PorterDuffView">
+	        <attr name="porterduffMode" format="boolean"></attr>
+	</declare-styleable>
+  <declare-styleable name="RoundedImageView">
+    <attr name="riv_corner_radius" format="dimension" />
+    <attr name="riv_border_width" format="dimension" />
+    <attr name="riv_border_color" format="color" />
+    <attr name="riv_mutate_background" format="boolean" />
+    <attr name="riv_oval" format="boolean" />
+    <attr name="android:scaleType" />
+    <attr name="riv_tile_mode">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_x">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+    <attr name="riv_tile_mode_y">
+      <enum name="clamp" value="0" />
+      <enum name="repeat" value="1" />
+      <enum name="mirror" value="2" />
+    </attr>
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+    <attr name="corner_radius" format="dimension" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+  </declare-styleable>
+   <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CardView">
+        <!-- Background color for CardView. -->
+        <attr name="cardBackgroundColor" format="color" />
+        <!-- Corner radius for CardView. -->
+        <attr name="cardCornerRadius" format="dimension" />
+        <!-- Elevation for CardView. -->
+        <attr name="cardElevation" format="dimension" />
+        <!-- Maximum Elevation for CardView. -->
+        <attr name="cardMaxElevation" format="dimension" />
+        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        <attr name="cardUseCompatPadding" format="boolean" />
+        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        <attr name="cardPreventCornerOverlap" format="boolean" />
+        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        <attr name="contentPadding" format="dimension" />
+        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        <attr name="contentPaddingLeft" format="dimension" />
+        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        <attr name="contentPaddingRight" format="dimension" />
+        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        <attr name="contentPaddingTop" format="dimension" />
+        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        <attr name="contentPaddingBottom" format="dimension" />
+        <!-- Workaround to read user defined minimum width -->
+        <attr name="android:minWidth"/>
+        <!-- Workaround to read user defined minimum height -->
+        <attr name="android:minHeight"/>
+    </declare-styleable>
+
+</resources>

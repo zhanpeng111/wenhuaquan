@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   
+   <com.qlhui.thoughtlight.myview.ItemHeaderView
+              android:id="@+id/item_header" 
+			android:paddingTop="@dimen/ds20" 
+			android:paddingBottom="@dimen/ds10" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@+id/my_credit_layout" 
+        android:background="@color/white" 
+        android:layout_width="fill_parent" 
+        android:layout_height="53.0dip">
+    <View android:id="@+id/line_view" 
+        android:layout_width="fill_parent" 
+        android:layout_height="@dimen/ds1" 
+
+         android:background="@color/cp_bg_line_b" />
+        <ImageView android:id="@+id/icon"
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:layout_marginLeft="12.0dip" 
+             android:src="@drawable/my_credit_icon" 
+             android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp"
+             android:textColor="#ff373d48" android:id="@+id/string"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_marginLeft="12.0dip" 
+              android:text="@string/upload_renwu" 
+              android:layout_toRightOf="@id/icon" 
+              android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/profile_edit_icon_arrow" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+             android:layout_marginRight="12.0dip"
+              android:src="@drawable/profile_edit_icon_arrow" 
+              android:layout_alignParentRight="true" 
+              android:layout_centerVertical="true" />
+      
+    </RelativeLayout>
+    
+     <RelativeLayout android:id="@+id/my_credit_layout2" 
+        android:background="@color/white" 
+        android:layout_width="fill_parent" 
+        android:layout_height="53.0dip">
+    <View 
+        android:layout_width="fill_parent" 
+        android:layout_height="@dimen/ds1" 
+
+         android:background="@color/cp_bg_line_b" />
+        <ImageView android:id="@+id/icon1"
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:layout_marginLeft="12.0dip" 
+             android:src="@drawable/my_credit_icon" 
+             android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp"
+             android:textColor="#ff373d48" android:id="@+id/string1"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_marginLeft="12.0dip" 
+              android:text="@string/upload_renwu" 
+              android:layout_toRightOf="@id/icon1" 
+              android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/profile_edit_icon_arrow1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+             android:layout_marginRight="12.0dip"
+              android:src="@drawable/profile_edit_icon_arrow" 
+              android:layout_alignParentRight="true" 
+              android:layout_centerVertical="true" />
+      
+    </RelativeLayout>
+    
+    
+</LinearLayout>

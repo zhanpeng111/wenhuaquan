@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qlhui.thoughtlight"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 这个权限用于进行网络定位-->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<!-- 这个权限用于访问GPS定位-->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+	<!-- 用于读取手机当前的状态-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<!-- 访问网络，网络定位需要上网-->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- SD卡读取权限，用户写入离线定位数据-->
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+	<!--允许应用读取低级别的系统日志文件 -->
+	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.qlhui.thoughtlight.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/ActivityTheme_Light" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="OuMsWk1QfB8McnVPPPGRxHjG" />
+        
+        <activity
+            android:name="com.qlhui.thoughtlight.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.MainPage" >
+            
+         </activity>
+          <activity
+            android:name="com.qlhui.thoughtlight.RadarDemo"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+       >
+        </activity> 
+          <activity android:name="com.qlhui.thoughtlight.BaijiaActivity" >
+        </activity>
+         
+          <activity android:name="com.qlhui.suishouji.Ggcardactivity" >
+        </activity>
+          
+        <activity android:name="com.qlhui.thoughtlight.MainTabActivity" >
+        </activity>
+         <activity android:name="com.qlhui.thoughtlight.ForumDetailActivity" >
+        </activity>
+         <activity android:name="com.qlhui.thoughtlight.GuideViewActivity" >
+        </activity>
+
+        <activity android:name="com.qlhui.thoughtlight.SettingActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.LoginActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.RegistetActivity" >
+        </activity>
+          <activity android:name="com.qlhui.thoughtlight.ReviseActivity" >
+        </activity>
+          <activity android:name="com.qlhui.thoughtlight.BaijiaInfoActivity" >
+        </activity>
+            <activity android:name="com.qlhui.thoughtlight.MingrenInfoActivity" >
+        </activity>
+        
+        <activity android:name="com.qlhui.thoughtlight.AboutActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.Setting_yijianActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.UserInfoActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.imageviewer.ImageviewActivity" >
+        </activity>
+        <!-- TENCENT -->
+         <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent222222" />
+ 				<!-- 100380359 100381104 222222 -->
+            </intent-filter>
+        </activity>
+              <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.qlhui.thoughtlight.UploadActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.AshamedDetailActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.CameralActivity" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.PhotoAct" >
+        </activity>
+        <activity
+            android:name="com.qlhui.thoughtlight.SendCommentActivity"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name="com.qlhui.thoughtlight.AuditActivity" >
+        </activity>
+
+
+        	<activity android:name="com.qlhui.suishouji.SplashScreenActivity" 
+        	        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+     
+        	    android:screenOrientation="portrait" 
+        	    android:configChanges="keyboardHidden|orientation"
+        	 >
+
+		</activity>
+        
+		<activity android:name="com.qlhui.suishouji.MainActivity"
+		        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation"
+		 />
+		<activity android:name="com.qlhui.suishouji.TransactionTabActivity"
+		    		        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		    
+			android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.qlhui.suishouji.NavExpenseActivity" 
+		    		        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		    
+		    android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.qlhui.suishouji.SettingAccountActivity" 	
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"	    
+		    android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.qlhui.suishouji.SettingAddOrEditAccountActivity" 		        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+             android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.qlhui.suishouji.TransferActivity" 	 
+             android:screenOrientation="portrait"  android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.qlhui.suishouji.KeyPad"  android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+		<activity android:name="com.qlhui.suishouji.BudgetActivity"  android:theme="@android:style/Theme.Translucent.NoTitleBar" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" />
+
+      <service android:name="com.alibaba.tcms.service.TCMSService" android:exported="true" 
+          android:process=":TcmsService"></service>  
+             <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

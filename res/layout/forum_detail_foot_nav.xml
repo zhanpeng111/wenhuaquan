@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tb="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/foot_line" android:layout_width="fill_parent" 
+        android:layout_height="@dimen/ds2" android:background="@color/cp_bg_line_e" />
+    <LinearLayout android:orientation="horizontal" 
+        android:paddingLeft="@dimen/ds22" 
+        android:paddingRight="@dimen/ds22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds22">
+        <LinearLayout android:gravity="center" 
+            android:orientation="horizontal" 
+            android:id="@+id/fn_enter_box"
+             android:layout_width="fill_parent"
+              android:layout_height="wrap_content" 
+             android:layout_weight="0.5" 
+             android:background="@drawable/btn_blue_bg">
+            <ImageView android:id="@+id/icon_brief_jinba" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:src="@drawable/icon_ba_about_im" />
+            <TextView android:textSize="@dimen/default_size_22" android:gravity="center" android:layout_gravity="center" android:id="@+id/fn_enter_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds6" 
+                android:text="@string/entry_baijia" android:textColor="@color/cp_cont_i" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" 
+            android:id="@+id/fn_care_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds12" android:layout_weight="0.5" android:background="@drawable/btn_blue_bg">
+            <ImageView android:id="@+id/icon_brief_care" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+                android:src="@drawable/icon_brief_attention" />
+            <TextView android:textSize="@dimen/default_size_22" android:gravity="center" android:layout_gravity="center" android:id="@+id/fn_care_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds6" android:text="@string/attention" android:textColor="@color/cp_cont_i" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

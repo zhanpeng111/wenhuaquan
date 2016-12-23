@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView 
+        android:id="@+id/h_forum_portrait" 
+        android:layout_width="@dimen/ds140" 
+        android:layout_height="@dimen/ds140"
+         android:layout_marginLeft="@dimen/ds22" 
+         android:src="@drawable/default_avatar_lead"
+         android:scaleType="centerCrop" 
+         android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@+id/forum_header_rl" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/ds36" android:layout_marginRight="@dimen/ds22"
+         android:layout_toRightOf="@id/h_forum_portrait">
+        <TextView android:textSize="@dimen/fontsize36"
+             android:gravity="center_vertical"
+             android:id="@+id/h_forum_name" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="@dimen/ds8" 
+             android:layout_marginBottom="@dimen/ds8" 
+             android:singleLine="true" 
+            android:textColor="@color/cp_cont_b" />
+        <LinearLayout android:gravity="center_vertical" 
+            android:orientation="horizontal" android:id="@+id/forum_info_ll" 
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:layout_below="@id/h_forum_name">
+            <TextView android:textSize="@dimen/fontsize28" 
+                android:id="@+id/h_fans_icon" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:text="@string/attention" 
+                android:textColor="@color/cp_cont_c" />
+            <TextView android:textSize="@dimen/fontsize32" android:textStyle="bold" android:id="@+id/h_fans_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds14" android:layout_marginRight="@dimen/ds24" android:singleLine="true" android:textColor="@color/cp_link_tip_d" />
+            <TextView android:textSize="@dimen/fontsize28"
+                 android:id="@+id/h_thread_icon" 
+                 android:layout_width="wrap_content" 
+                 android:layout_height="wrap_content" 
+                 android:text="@string/forum_list_thread_tv" 
+                 android:textColor="@color/cp_cont_c" />
+            <TextView android:textSize="@dimen/fontsize32" android:textStyle="bold" android:id="@+id/h_thread_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds14" android:singleLine="true" android:textColor="@color/cp_link_tip_d" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/fontsize28" 
+            android:gravity="center" android:id="@+id/forum_authen" 
+            android:paddingLeft="@dimen/ds10" android:paddingTop="@dimen/ds4" 
+            android:paddingRight="@dimen/ds10" android:paddingBottom="@dimen/ds4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds10" android:singleLine="true" android:layout_below="@id/forum_info_ll" 
+            android:background="@drawable/lable_ba_ce_red" 
+            android:textColor="@color/cp_cont_g" />
+    </RelativeLayout>
+</merge>

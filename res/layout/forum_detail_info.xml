@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical"
+         android:id="@+id/info_brief_box"
+          android:paddingLeft="@dimen/ds20" 
+          android:paddingRight="@dimen/ds20" 
+          android:paddingBottom="@dimen/ds20" 
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content">
+        <View android:id="@+id/h_divider_line" 
+            android:layout_width="fill_parent"
+             android:layout_height="1.0dip" 
+             android:layout_marginBottom="@dimen/ds20" 
+             android:background="@color/cp_bg_line_c" />
+        <TextView android:textSize="@dimen/fontsize36" 
+            android:id="@+id/info_brief_title" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="@string/forum_detail_info_brief_title" 
+            android:textColor="@color/cp_cont_b" />
+        <TextView android:textSize="@dimen/fontsize32" 
+            android:id="@+id/info_brief_content" 
+            android:paddingTop="@dimen/ds6" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:textColor="@color/cp_cont_c" />
+    </LinearLayout>
+</merge>
